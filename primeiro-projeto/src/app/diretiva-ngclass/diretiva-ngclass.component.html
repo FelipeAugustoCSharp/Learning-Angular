@@ -3,6 +3,13 @@
     [class.bi-check-circle]="!meuFavorito"
     [class.bi-check-circle-fill]="meuFavorito"
     (click)="onClick()"></i>
+</h1>
 
-    <!--tt-->
+<h1>
+    <i class="bi"
+    [ngClass]="{
+        'bi-check-circle': !meuFavorito,
+        'bi-check-circle-fill': meuFavorito
+    }"
+    (click)="onClick()"></i>
 </h1>
