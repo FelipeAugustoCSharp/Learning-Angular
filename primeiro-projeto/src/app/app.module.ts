@@ -5,12 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
+import { ExemploNgcontentComponent } from './exemplo-ngcontent/exemplo-ngcontent.component';
+
+//diretivas
+import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
+import { FundoAmareloDirective } from './Shared/fundo-amarelo.directive';
+import { HighlightMouseDirective } from './Shared/highlight-mouse.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiretivaNgclassComponent,
-    DiretivaNgstyleComponent
+    DiretivaNgstyleComponent,
+    OperadorElvisComponent,
+    ExemploNgcontentComponent,
+    DiretivasCustomizadasComponent,
+    FundoAmareloDirective,
+    HighlightMouseDirective
   ],
   imports: [
     BrowserModule,
